@@ -18,12 +18,12 @@ export default defineConfig({
     }),
   ],
   server: {
-    port: 3000,
+    port: 5000,
     host: true,
     allowedHosts: true,
   },
   preview: {
-    port: 3000,
+    port: 5000,
     host: true,
     allowedHosts: true,
   },
