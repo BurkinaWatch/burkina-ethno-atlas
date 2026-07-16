@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Ethnies du Burkina Faso</string>
+    <string name="title_activity_main">Ethnies du Burkina Faso</string>
+    <string name="package_name">com.burkinafaso.ethnies</string>
+    <string name="custom_url_scheme">com.burkinafaso.ethnies</string>
+</resources>

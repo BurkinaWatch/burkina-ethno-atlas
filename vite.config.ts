@@ -10,6 +10,7 @@ dns.setDefaultResultOrder("verbatim");
 
 // https://vite.dev/config/
 export default defineConfig({
+  base: "./", // Required for Capacitor (file:// protocol on device)
   plugins: [
     react(),
     tailwindcss(),

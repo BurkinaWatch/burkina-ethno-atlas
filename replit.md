@@ -37,10 +37,19 @@ src/
 ## Commandes
 
 ```bash
-npm run dev    # Démarrer le serveur de développement (port 3000)
-npm run build  # Build de production
-npm run lint   # Linting ESLint
+npm run dev      # Démarrer le serveur de développement (port 5000)
+npm run build    # Build de production (web → dist/)
+npm run sync     # Build + synchroniser vers android/
+npm run lint     # Linting ESLint
+npx cap sync     # Synchroniser dist/ → android/ sans rebuild
 ```
+
+## Générer l'APK Android
+
+1. `npm run sync` — compile et copie le web dans android/
+2. Télécharger le dossier `android/` et l'ouvrir dans Android Studio
+3. **Build → Generate Signed Bundle / APK → APK**
+4. Installer sur téléphone ou publier sur Google Play
 
 ## Couleurs du design
 - **Vert** : `#009A44` (couleur principale, drapeau BF)
